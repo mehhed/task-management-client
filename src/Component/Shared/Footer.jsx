@@ -83,7 +83,7 @@ const Footer = () => {
               rel="noreferrer"
               target="_blank"
               className="hover:underline mx-1">
-              Unique TaskHub
+              TaskHub
             </a>
             All Rights Reserved.
           </p>
