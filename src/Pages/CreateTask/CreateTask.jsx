@@ -16,7 +16,7 @@ const CreateTask = () => {
       email: user?.email,
     };
     const res = await axios.post(
-      "task-managemet-server.vercel.app/createTask",
+      "https://task-managemet-server.vercel.app/createTask",
       task
     );
     if (res.data.insertedId) {
