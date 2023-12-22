@@ -33,14 +33,6 @@ const DashboardRouter = () => {
           <span>To-Do List</span>
         </Link>
       </li>
-      <li>
-        <Link className="flex items-center px-6 py-4 text-black    hover:bg-gray-600 hover:rounded-md">
-          <span className="inline-block mr-3">
-            <FaHeart className="text-2xl"></FaHeart>
-          </span>
-          <span>Wishlist</span>
-        </Link>
-      </li>
     </div>
   );
 };
