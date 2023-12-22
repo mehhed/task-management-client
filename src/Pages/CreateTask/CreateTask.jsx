@@ -15,7 +15,10 @@ const CreateTask = () => {
       priority: data.priority,
       email: user?.email,
     };
-    const res = await axios.post("http://localhost:3000/createTask", task);
+    const res = await axios.post(
+      "task-managemet-server.vercel.app/createTask",
+      task
+    );
     if (res.data.insertedId) {
       toast.success("Succesfully created task");
       reset();
