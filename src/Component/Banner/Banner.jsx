@@ -35,7 +35,7 @@ const Banner = () => {
                 Explore Now
               </Link>
             </div>
-            <div className="flex-1"></div>
+            <div className="flex-1 hidden lg:block"></div>
           </div>
         </div>
       </div>
